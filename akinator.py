@@ -1,6 +1,7 @@
 import random
 from pokemonDB import typeList
 
+#fiks greia
 
 userPokemon = {}
 
