@@ -11,6 +11,13 @@ pokemon = ["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard
 "Ditto","Eevee","Vaporeon","Jolteon","Flareon","Porygon","Omanyte","Omastar","Kabuto","Kabutops","Aerodactyl","Snorlax","Articuno","Zapdos","Moltres","Dratini",
 "Dragonair","Dragonite","Mewtwo","Mew"]
 
-pokemonType = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
+typeList = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
 "Fighting", "Poison", "Ground", "Flying", "Psychic",
 "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"]
+
+
+
+
+#stEvo = First evo
+#ndEvo = Second evo
+#rdEvo = Third evo
