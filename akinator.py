@@ -27,7 +27,7 @@ def typeGuess():
     else:
         return typeGuess()
 
-def typeGuess():
+def typingGuess():
     for i in range(allowedQuestions):  
         multiType = input('Does your Pokemon have more than one type?\n [y] or [n]?')
         if multiType == 'y':
