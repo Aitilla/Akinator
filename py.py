@@ -17,5 +17,3 @@ def introChoice():
 #Starts the game
 if __name__ == "__main__":
     intro()
-
-print('hello world')
