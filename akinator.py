@@ -15,15 +15,18 @@ def type2Guess():
 
 def type1Guess():
     pokemonType = getRandomType()  
-    guessType = input('\n')
+    guessType = input('\nIs your pokemon', pokemonType+'?')
+    if guessType == 'y':
+        print('So your Pokemon is', pokemonType + '. Interesting.')
+        type1 = pokemonType
+
 
 def typeGuess():
     pokemonType = getRandomType()  
     typeGuess = input('\n\nIs your pokemon', pokemonType+'?')
-    print('\n')
     if typeGuess == 'y':
         print('So your Pokemon is', pokemonType + '. Interesting.')
-        type1 = pokemonType
+        type = pokemonType
     else:
         return typeGuess()
 
@@ -43,10 +46,11 @@ def typingGuess():
 def intro():
     print('\nWelcome to "Akinator"')
     print('\nI will try to guess which pokemon you are thinking off based of some questions i will ask you')
+    print('\nWith every question you will answer either y or n to either confirm or deny the question')
     introChoice()
 
 def introChoice():
-    startQ = input('\nAre you ready to play?\nPress [y] then ENTER to play the game\n').lower
+    startQ = input('\nAre you ready to play?\nPress [y] then ENTER to play the game\n').lower()
     if startQ == 'y':
         typingGuess()
     else:
