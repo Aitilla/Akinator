@@ -10,23 +10,31 @@ allowedQuestions = 15
 def getRandomType():
     return random.choice(typeList)
 
+def type2Guess()
+
+def type1Guess():
+    pokemonType = getRandomType()  
+    guessType = input('\n')
+
+def typeGuess():
+    pokemonType = getRandomType()  
+    typeGuess = input('\n\nIs your pokemon', pokemonType+'?')
+    print('\n')
+    if typeGuess == 'y':
+        print('So your Pokemon is', pokemonType + '. Interesting.')
+        type1 = pokemonType
+    else:
+        return typeGuess()
+
 def typeGuess():
     for i in range(allowedQuestions):  
-        pokemonType = getRandomType()  
         multiType = input('Does your Pokemon have more than one type?')
         if multiType == 'y':
             multiType = True
+            type1Guess
         else:
             print('\nYour Pokemon is only one type okay.')
-            type1 = input('\n\nIs your pokemon', pokemonType+'?')
-            print('\n')
-        type1Guess = input('')
-        if type1 == 'y':
-            print('So your Pokemon is', pokemonType + '. Interesting.')
-            type1 = pokemonType
-        else:
-            return typeGuess()
-        
+            typeGuess()
 
 def intro():
     print('\nWelcome to "Akinator"')
