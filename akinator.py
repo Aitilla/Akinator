@@ -48,7 +48,7 @@ def intro():
 def introChoice():
     startQ = input('\nAre you ready to play?\nPress [y] then ENTER to play the game\n').lower
     if startQ == 'y':
-        typeGuess()
+        typingGuess()
     else:
         print('Incorrect input. Please try again')
         introChoice()
