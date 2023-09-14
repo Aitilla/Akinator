@@ -10,7 +10,7 @@ allowedQuestions = 15
 def getRandomType():
     return random.choice(typeList)
 
-def type2Guess()
+def type2Guess():
 
 def type1Guess():
     pokemonType = getRandomType()  
