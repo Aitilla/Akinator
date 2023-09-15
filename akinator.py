@@ -2,6 +2,7 @@ import random
 from pokemonDB import typeList
 
 
+
 userPokemon = {}
 
 #Maximum amount of Akinator questions 
